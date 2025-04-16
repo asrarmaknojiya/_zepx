@@ -1,0 +1,61 @@
+.toast-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontal center */
+    justify-content: center; /* Vertical center */
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 250px; /* Width थोड़ी बढ़ा दी जिससे text अच्छे से दिखे */
+  }
+  .Toastify__toast {
+    width: auto;
+  }
+
+
+  .toast-undo-button{
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .toast-undo-button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+  
+  .toast-message {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: center; /* Text center में */
+  }
+  
+  .toast-button-container {
+    display: flex;
+    justify-content: center; /* Buttons को horizontally center किया */
+    gap: 10px; /* Buttons के बीच space */
+    width: 100%;
+  }
+  
+  .toast-logout-button,
+  .toast-cancel-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .toast-logout-button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+  }
+  
+  .toast-cancel-button {
+    background-color: #6c757d; /* Grey color */
+    color: white;
+  }
+  
